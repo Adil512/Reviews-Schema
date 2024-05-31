@@ -1,0 +1,54 @@
+<script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",    
+  "name": "BUSINESS NAME",
+  "address": {
+    "@type": "PostalAddress",
+		"streetAddress": "STREET ADDRESS",
+		"addressLocality": "CITY",
+		"addressRegion": "STATE ABBREVIATION",
+		"postalCode": "ZIP CODE"
+	},
+	"telePhone": "PHONE NUMBER",
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": "LATITUDE",
+		"longitude": "LONGITUDE"
+	},
+  "url": "URL",
+  "logo": "LOGO URL",
+  "image": "IMAGE URL",
+  "priceRange" : "$-$$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "PUT A SINGLE DIGIT, WHAT THE AVERAGE RATING IS OVERALL (1-5)",
+    "ratingCount": "PUT A SINGLE DIGIT HERE, HOW MANY REVIEWS TOTAL ARE ON THE PAGE"
+ 	 },
+  "review": [ 
+    {
+    "@type": "Review",
+    "author": "REVIEWER ONE NAME",
+    "datePublished": "YEAR-MONTH-DAY (xxxx-xx-xxxx)",
+    "reviewBody": "THE REVIEW CONTENT THAT REVIEWER ONE LEFT",
+    "reviewRating": {
+      "@type": "Rating",
+      "bestRating": "5",
+      "ratingValue": "PUT A SINGLE DIGIT, WHAT THE AVERAGE RATING IS (1-5)",
+      "worstRating": "1"
+    }
+    },
+        {
+    "@type": "Review",
+    "author": "REVIEWER TWO NAME",
+    "datePublished": "YEAR-MONTH-DAY (xxxx-xx-xxxx)",
+    "reviewBody": "THE REVIEW CONTENT THAT REVIEWER TWO LEFT",
+    "reviewRating": {
+      "@type": "Rating",
+      "bestRating": "5",
+      "ratingValue": "PUT A SINGLE DIGIT, WHAT THE AVERAGE RATING IS (1-5)",
+      "worstRating": "1"
+    }
+    }
+  ]
+}
+</script>
